@@ -1,0 +1,21 @@
+
+h1{
+    color: red;
+    text-align: center;
+}
+.par{
+    color: green;
+    
+}
+div{
+    height: 200px;
+    width: 200px;
+    color:brown;
+    background-color: aqua;
+    text-align: center;
+    /* for vertical alignment */
+    align-content: center; 
+    padding: 30px;
+    margin: 100px;
+    font-size: 30px;
+}
