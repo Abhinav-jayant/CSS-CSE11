@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Default layout: desktop/tablet */
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.box {
+  flex: 1;
+  padding: 40px 0;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 6px;
+}
+
+.box1 { background: #cf06bbaa; }
+.box2 { background: #28a745; }
+.box3 { background: #05447b; }
+
+/* Media query for small screens (phones) */
+@media (max-width: 600px) {
+  body{ background-color: rgb(200, 22, 102);}
+  .container {
+    /* display: block;        stack boxes vertically *//
+    /* darker blue */
+  }
+
+  .box {
+    margin-bottom: 15px;   /* add space between stacked boxes */
+  }
+}
